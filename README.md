@@ -15,8 +15,9 @@ Jenkins Pipeline Script: a Jenkins pipeline script that automates the build, tes
 
   Install Docker on your EC2 instance: Ensure that Docker is properly installed on your EC2 instance. This will allow you to run and manage containers.
 Create an account on DockerHub: Sign up for an account on DockerHub, which is a popular container registry. This will enable you to push Docker images to a central repository for sharing.
-Set up Jenkins Pipeline: Configure Jenkins and create a new pipeline job. The Jenkins pipeline script provided in this repository can be used as a starting point. Customize it as per your requirements and configure any necessary credentials for Docker login.
-Execute the Pipeline: Run the Jenkins pipeline job to trigger the build process. The pipeline script will perform the following tasks:
+  Set up Jenkins Pipeline: Configure Jenkins and create a new pipeline job. The Jenkins pipeline script provided in this repository can be used as a starting point. Customize it as per your requirements and configure any necessary credentials for Docker login.
+Execute the Pipeline: Run the Jenkins pipeline job to trigger the build process. 
+- The pipeline script will perform the following tasks:
     - Check out the code from the repository
     - Build the Maven code
     - Execute unit tests
